@@ -5,6 +5,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'mooli',Arial, Helvetica, sans-serif;
+    
 }
 
 ul {
@@ -17,7 +18,11 @@ padding: 0;
 
     color: white;
 }
+header{
 
+    background-image: url(../images/obras/theatre-551797_1920.jpg);
+    background-position: center;
+}
 
 header img{
     width: 5rem;
@@ -39,45 +44,61 @@ header a{
 header nav ul li a{
 
     border-radius: 10px;
-    background-color: rgba(87, 80, 105, 0.486);
+    background-color: rgba(8, 8, 8, 0.548);
 }
 
 section{
 
-    display: flex;
-    width: auto;
-    height: 100%;
-    background-image: url(../images/theatre-551797_1920.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;   
+    display: grid;
+    width: auto;  
+    background-color: #140505;   
 }    
 
 footer{
     background-color: blanchedalmond;
 }
 
+
 .obras > div { 
     color: white;
     width: 100%;
     height: auto;
+    
 }
 
 .obras img{
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    border: 3px solid rgb(150, 147, 146);
+    border: 3px solid rgb(182, 134, 118);
 }
 
+.buscador{
+
+    background-color: rgba(36, 7, 7, 0.514);
+    color: white;
+    border-color:rgb(128, 65, 65);
+    border-style: dashed;
+    
+}
+.barra_de_buscador{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-;
+    
+
+}
+section div nav ul li label img{
+    width:1rem;
+}
 
 
 @media only screen and (max-width: 380px ) {
 
 header{
 
-    background-color: #300311;
+    
     padding: 5px;
 }
 .imagen_y_nombre img{
@@ -93,13 +114,13 @@ header nav ul{
     
 }
 header h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .obras{
     display: grid;
-    padding: 50px;
-    gap: 35px;
+    margin: 4rem;
+    gap: 5rem;
     grid-template-columns: auto ;
     
     }
@@ -109,7 +130,7 @@ header h1{
 @media only screen and (min-width: 380px ) {
 header{
 
-    background-color: #300311;
+    background-color: #220c1371;
     padding: 5px;
 }
 header nav ul {
@@ -127,8 +148,8 @@ header nav ul {
 
 .obras{
      display: grid;
-     padding: 50px;
-     gap: 35px;
+     margin: 4rem;
+     gap: 5rem;
     grid-template-columns: auto auto ;
         
  }
@@ -152,9 +173,10 @@ header nav ul li a{
 
 .obras{
     display: grid;
-    padding: 50px;
-    gap: 35px;
+    margin: 4rem;
+    gap: 5rem;
     grid-template-columns: auto auto auto auto  ;
     
 }
 } /*cierre del media */
+
