@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'mooli',Arial, Helvetica, sans-serif;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+.imagen_y_nombre , nav a{
+
+    color: white;
+}
+
+
+header img{
+    width: 5rem;
+}
+.imagen_y_nombre{
+
+    display: flex;
+    align-items: center;
+    
+}
+header h1{
+
+    margin-left: 1rem;
+}
+header a{
+    text-decoration: none;
+}
+
+header nav ul li a{
+
+    border-radius: 10px;
+    background-color: rgba(87, 80, 105, 0.486);
+}
+
+section{
+
+    width: auto;
+    height: 100%;
+    background-image: url(../images/theatre-551797_1920.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+footer{
+    background-color: blanchedalmond;
+}
+
+.obras > div {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    
+    
+    
+}
+
+.obras img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 3px solid rgb(150, 147, 146);
+}
+
+
+
+@media only screen and (max-width: 380px ) {
+
+header{
+
+    background-color: #300311;
+    padding: 5px;
+}
+.imagen_y_nombre img{
+
+margin-bottom: 5px;
+
+}
+header nav ul{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header h1{
+    font-size: 1.5rem;
+}
+
+.obras{
+    display: grid;
+    padding: 50px;
+    gap: 35px;
+    grid-template-columns: auto ;
+    
+    }
+
+
+} /*cierre del media */
+@media only screen and (min-width: 380px ) {
+header{
+
+    background-color: #300311;
+    padding: 5px;
+}
+header nav ul {
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.imagen_y_nombre img{
+
+    margin-bottom: 5px;
+    
+    }
+
+.obras{
+     display: grid;
+     padding: 50px;
+     gap: 35px;
+    grid-template-columns: auto auto ;
+        
+ }
+} /*cierre del media */
+
+@media only screen and (min-width: 730px ) {
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li a{
+    margin: 1rem;
+}
+header nav ul li a{
+
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.obras{
+    display: grid;
+    padding: 50px;
+    gap: 35px;
+    grid-template-columns: auto auto auto auto  ;
+    
+}
+} /*cierre del media */
