@@ -117,13 +117,6 @@ header h1{
     font-size: 2rem;
 }
 
-.obras{
-    display: grid;
-    margin: 4rem;
-    gap: 5rem;
-    grid-template-columns: auto ;
-    
-    }
 
 
 } /*cierre del media */
@@ -146,13 +139,7 @@ header nav ul {
     
     }
 
-.obras{
-     display: grid;
-     margin: 4rem;
-     gap: 5rem;
-    grid-template-columns: auto auto ;
-        
- }
+
 } /*cierre del media */
 
 @media only screen and (min-width: 730px ) {
@@ -171,12 +158,5 @@ header nav ul li a{
     padding: 2px;
 }
 
-.obras{
-    display: grid;
-    margin: 4rem;
-    gap: 5rem;
-    grid-template-columns: auto auto auto auto  ;
-    
-}
 } /*cierre del media */
 
